@@ -1,1 +1,344 @@
 
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.header-main .header-search-form-wrapper button.ux-search-submit.submit-button {
+    background-color: #333333;
+}
+
+.header-main ul#header-contact li a, .header-main ul#header-contact li a i {
+    color: #fff !IMPORTANT;
+}
+.header-main ul#header-contact li a span:before {
+    content: "HOTLINE";
+    display: block;
+    font-size: 13px;
+    margin-bottom: 3px;
+    font-weight: normal;
+    line-height: 13px;
+}
+
+.header-main ul#header-contact li a span {
+    font-size: 19px;
+    line-height: 20px;
+}
+span.widget-title {
+    text-transform: uppercase;
+    color: #d0021b;
+}
+
+.footer-widgets 
+ .menu li a {
+    background: #FFD400;
+    padding: 8px 15px;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 3px;
+    font-weight: 700;
+    color: #333F50;
+    position: relative;
+}
+
+.footer-widgets .menu li a:after {
+    content: "\f105";
+    font-family: 'fl-icons' !important;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-widgets .is-divider.small {
+    min-width: 60px;
+    height: 1px;
+}
+.copyright-footer {
+    color: #fff;
+}
+.footer-widgets span.widget-title {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+table.table-style1 thead tr td {
+    background-color: #FFBC01;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+table tr td {
+    border: solid 1px #DEE5ED;
+    padding: 10px !important;
+}
+.page-title.blog-featured-title.featured-title.no-overflow .title-overlay.fill {
+    background: transparent !important;
+}
+
+.page-title-inner.container.flex-row.dark.is-large {
+    min-height: 30px !IMPORTANT;
+}
+
+.page-title-inner.container.flex-row.dark.is-large .entry-divider.is-divider.small {
+    display: none;
+}
+.page-title.blog-featured-title.featured-title.no-overflow .page-title-inner.container.flex-row.dark.is-large {
+    padding-bottom: 0;
+}
+
+.page-title.blog-featured-title.featured-title.no-overflow {
+    background-color: #fff;
+    box-shadow: none !IMPORTANT;
+}
+
+.page-title.blog-featured-title.featured-title.no-overflow h6.entry-category.is-xsmall {
+    color: #000;
+    text-shadow: none;
+}
+
+.page-title.blog-featured-title.featured-title.no-overflow h1.entry-title {
+    color: #CD1818;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.page-title.blog-featured-title.featured-title.no-overflow .flex-col.flex-center.text-center {
+    text-align: left;
+    margin-left: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.page-title.blog-featured-title.featured-title.no-overflow .page-title-bg.fill {
+    box-shadow: none;
+}
+blockquote p {
+    font-size: 16px;
+}
+p.name.product-title.woocommerce-loop-product__title a {
+    font-weight: bold;
+    font-size: 16px;
+    color: #b20000;
+}
+
+p.name.product-title.woocommerce-loop-product__title a:hover {
+    color: var(--wp--preset--color--vivid-red);
+}
+.footer-2 .textwidget p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+li.html.custom.html_topbar_left strong {
+    color: #000;
+    font-size: 16px;
+}
+.from_the_blog_excerpt {
+    color: #000;
+    font-size: 16px;
+}
+body {
+    color: #000;
+}
+h5.post-title.is-large {
+    color: #000;
+}
+
+h5.post-title.is-large:hover {
+    color: #206AD6;
+}
+.sidebar-wrapper .widget_nav_menu .menu,
+#shop-sidebar  .widget_nav_menu .menu,
+.widget-area  .widget_nav_menu .menu,
+#product-sidebar .widget_nav_menu .menu{
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 13%) 0px 0px 10px;
+    padding: 15px;
+}
+
+.sidebar-wrapper .widget_nav_menu .menu li a, 
+#shop-sidebar .widget_nav_menu .menu li a,
+.widget-area .widget_nav_menu .menu li a,
+#product-sidebar .widget_nav_menu .menu li a{
+    color: #000;
+    font-weight: bold;
+}
+
+.sidebar-wrapper .widget_nav_menu .menu li a:hover,
+#shop-sidebar .widget_nav_menu .menu li a:hover,
+.widget-area .widget_nav_menu .menu li a:hover,
+#product-sidebar .widget_nav_menu .menu li a:hover{
+    color: #206AD6;
+}
+.entry-content h2 {
+    font-size: 26px;
+}
+.entry-content h3 {
+    font-size: 24px;
+}
+
+.entry-content h5 {
+    font-size: 20px;
+}
+.entry-content h4 {
+    font-size: 22px;
+}
+
+.entry-content h5 {
+    font-size: 20px;
+}
+td {
+    color: #000;
+}
+table thead tr th, table thead tr td {
+    background-color: #FFBC01;
+    color: #000;
+    font-size: 16px;
+}
+table thead tr th:first-child, table thead tr td:first-child {
+    padding-left: 12px;
+}
+.gallery-dev .box-text.text-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    color: #fff;
+}
+
+.gallery-dev .image-lightbox .box-text.text-left {
+    opacity: 0;
+}
+
+.gallery-dev .image-lightbox:hover .box-text.text-left {
+    opacity: 1;
+}
+.breadcrumbs a {
+    color: #000;
+}
+
+.breadcrumbs .divider, .breadcrumbs .separator {
+    color: #000;
+}
+.nav-column>li>a, .nav-dropdown>li>a, .nav-vertical-fly-out>li>a, .nav>li>a {
+    color: #000;
+}
+.product-small .price-wrapper {
+    padding-top: 10px;
+}
+.is-outline {
+    color: #000;
+}
+.woocommerce  .product-images figure a {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    padding-top: 322px;
+    background-position: 50% 50%;
+    background-size: contain !IMPORTANT;
+    display: inline-block;
+    width: 100%;
+}
+.woocommerce .product-images figure a img {
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    object-position: 50% 50%;
+    object-fit: contain;
+    font-family: 'object-fit: container;';
+}
+.woocommerce  .product-images figure {
+    border: solid 1px #ddd;
+}
+.header-wrapper a.header-cart-link.icon.primary.button.round.is-small {
+    color: #000;
+}
+.header-wrapper img.header_logo {
+    box-shadow: none;
+}
+.section-quy-trinh-thi-cong {
+    padding: 0 !important;
+}
+.entry-content.single-page {
+    padding-top: 0;
+}
+@media(max-width: 768px){
+	.entry-content h4 {
+		font-size: 20px;
+	}
+
+	.entry-content h2 {
+		font-size: 24px;
+	}
+
+	.entry-content h3 {
+		font-size: 22px;
+	}
+
+	.entry-content h5 {
+		font-size: 18px;
+	}
+}
+@media(max-width:550px){
+	.row.product-scroll {
+		white-space: nowrap;
+		overflow-x: scroll;
+	 -webkit-overflow-scrolling: touch;
+		display: flex;
+		-webkit-display: flex;
+		flex-flow: row nowrap;
+		flex: 1 100%;
+	}
+	.row.product-scroll::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+
+	.row.product-scroll::-webkit-scrollbar:vertical {
+		width: 12px;
+	}
+
+	.row.product-scroll::-webkit-scrollbar:horizontal {
+		height: 12px;
+	}
+
+	.row.product-scroll::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, .5);
+		border-radius: 10px;
+		border: 2px solid #ffffff;
+	}
+
+	.row.product-scroll::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background-color: #ffffff;
+	}
+	.row.product-scroll>.col {
+		width: 44% !IMPORTANT;
+		min-width: 44% !IMPORTANT;
+		padding-top: 5px;
+		white-space: normal;
+	}
+	.row.product-scroll::-webkit-scrollbar {
+	  width: 4px;
+	}
+	.row.product-scroll::-webkit-scrollbar-track {
+	  background: #e0e0e0;
+	  border-radius: 2px;
+	}
+	.row.product-scroll::-webkit-scrollbar-thumb {
+	  background: #828282;
+	  border-radius: 2px;
+	}
+	.row.product-scroll::-webkit-scrollbar-thumb:hover {
+	  background: #828282;
+	}
+}
